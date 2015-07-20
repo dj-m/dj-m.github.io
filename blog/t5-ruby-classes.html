@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<head>
+  <title>Domingo's Blog</title>
+  <meta charset="UTF-8">
+  <link href="../styles/blogs.css" rel="stylesheet">
+</head>
+
+<body>
+  <nav>
+    <div class="container">
+      <ul>
+        <li>
+          <a href="https://dj-m.github.io">Home</a>
+        </li>
+        <li>
+          <a href="#">About</a>
+        </li>
+        <li>
+          <a href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="details">
+    <section class="container">
+      <h1>Blog: Ed. 3</h1>
+      <h2>Enumerables! I know... fun, right?</h2>
+      <h4>July 21, 2015</h4>
+    </section>
+
+    <section class="container">
+      <p>Here we go... do you want to create an array? Does each elements need to be populated with some specific data? Do you like typing as little as possible? Well, may I have the pleasure of introducing you to the 'map' method of Ruby?</p>
+      <h3 id="different">
+        That was mostly rhetorical, but here’s how this'll shake out:
+      </h3>
+      <p>(1..4).map {|x| x * x}</p>
+      <p>This bit of code will build an array populated with elements that go from 1 to 4 where each one of those elements will be multiplied by itself. You'll get the following output:</p>
+      <p>#=> [1, 4, 9, 16]</p>
+      <p>So the 'map' method here returns a new array filled with whatever gets returned by the block each time it runs.</p>
+      <p>The funny thing about the #map method is that it's the EXACT same method as #collect... but just called differently. Which you use is a matter of how you envision the data moving. So, some people view the resulting array as collecting the results while others view it as a transformation or remapping of data.</p>
+      <p>That's it for now!</p>
+        <!-- copy and paste as many sections as you want to add paragraphs -->
+    </section>
+  </div>
+  <footer>
+    <nav>
+      <div class="container">
+        <ul>
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">About</a>
+          </li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </footer>
+</body>
