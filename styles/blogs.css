@@ -32,6 +32,12 @@ nav {
   margin-bottom: 5em;
 }
 
+.bullets {
+  list-style: none;
+  padding: 5px;
+  text-align: center;
+}
+
 nav ul {
   padding: 0;
   list-style: none;
@@ -53,7 +59,7 @@ footer {
 }
 
 p {
-  margin: 5em;
+  margin: 3em;
 }
 
 .details {
